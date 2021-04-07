@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=PT+Serif&display=swap');
+
 
 body {
     box-sizing: border-box;
@@ -58,4 +60,28 @@ h3 {
     height: 12px;
     background-image: url(./assets/hr-img.png);
     margin: 30px;
+}
+
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2.8em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.subheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cover-image {
+    margin: 20px 0;
+}
+
+p {
+    text-indent: 20px;
+    font-size: 1.4rem;
+    font-family: 'PT Serif', serif;
+    color: #666;
 }
