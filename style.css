@@ -128,3 +128,36 @@ ul {
 input {
     margin-right: 10px;
 }
+
+.author {
+    display: flex;
+    flex-direction: row;
+}
+
+.author p {
+    text-indent: 0px;
+    margin: 0 20px;
+}
+
+.author h4 {
+    margin: 0 20px;
+    font-size: 1.6rem;
+    color: #444;
+    font-family: 'Oswald', sans-serif;
+}
+
+.author img {
+    width: 85px;
+    height: 85px;
+}
+
+button {
+    white-space: nowrap;
+    align-self: center;
+    padding: 20px 40px;
+    font-size: 1.3rem;
+    background-color: #bc7058;
+    color: #fff;
+    border: 0;
+    text-transform: uppercase;
+}
